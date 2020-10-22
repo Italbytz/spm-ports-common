@@ -9,7 +9,7 @@ A set of helpful interfaces to use with Explicit Architecture.
 To install it, simply add the following dependency to your Package.swift:
 
 ``` swift
-.package(url: "https://github.com/RobinNunkesser/explicitarchitecture-spm.git", from: "0.0.1")
+.package(name: "ExplicitArchitecture", url: "https://github.com/RobinNunkesser/explicitarchitecture-spm.git", from: "0.0.1")
 ```
 
 ## Author
