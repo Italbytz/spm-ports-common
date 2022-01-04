@@ -1,6 +1,6 @@
-# ExplicitArchitecture
+# CommonPorts
 
-A set of helpful interfaces to use with Explicit Architecture.
+A set of helpful ports to use with Hexagonal Architecture.
 
 ## Installation
 
@@ -9,7 +9,7 @@ A set of helpful interfaces to use with Explicit Architecture.
 To install it, simply add the following dependency to your Package.swift:
 
 ``` swift
-.package(name: "ExplicitArchitecture", url: "https://github.com/RobinNunkesser/explicitarchitecture-spm.git", from: "0.0.1")
+.package(name: "CommonPorts", url: "https://github.com/Italbytz/spm-ports-common.git", from: "0.0.1")
 ```
 
 ## Author
@@ -18,5 +18,5 @@ Robin Nunkesser, robin.nunkesser@hshl.de
 
 ## License
 
-ExplicitArchitecture is available under the MIT license. See the LICENSE file for more info.
+CommonPorts is available under the MIT license. See the LICENSE file for more info.
 
