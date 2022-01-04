@@ -9,11 +9,11 @@ public protocol DataSource {
     ///
     /// - parameter id: ID of the entity to retrieve.
     /// - returns: An entity.
-    func retrieve(id: idType) async -> Result<entityType,Error>
+    func retrieve(id: idType) async throws -> entityType
 
     /// Retrieves all entities.
     ///
     /// - returns: All entities.
-    func retrieveAll() async -> Result<[entityType],Error>
+    func retrieveAll() async throws -> [entityType]
 
 }
