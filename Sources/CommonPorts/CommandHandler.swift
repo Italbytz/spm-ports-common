@@ -9,6 +9,5 @@ public protocol Command {
     ///
     /// - parameter inDTO: Encapsulated inDTO parameters.
     /// - parameter completion: Closure for completion
-    func execute(inDTO : inDTOType,
-                 completion: @escaping (Result<outDTOType,Error>) -> Void)
+    func execute(inDTO : inDTOType) async -> Result<outDTOType,Error>
 }

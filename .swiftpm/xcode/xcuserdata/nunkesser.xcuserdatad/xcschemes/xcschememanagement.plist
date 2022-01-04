@@ -17,6 +17,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>CommonPorts</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CommonPortsTests</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>ExplicitArchitecture</key>
 		<dict>
 			<key>primary</key>
